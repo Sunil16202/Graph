@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+//weight and vertex
 #define pll pair<int,int>
+
 vector<int>dis;
 vector<bool>vis;
 void dijkstra(vector<pll>adj[],int nodes,int s){
